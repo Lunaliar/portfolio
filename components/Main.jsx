@@ -21,9 +21,9 @@ function Main() {
 		<div id="main" className={tw.component}>
 			<div className={tw.container}>
 				<div>
-					<p className={tw.topP}>Let's build something truly magical</p>
+					<p className={tw.topP}>Let&apos;s build something truly magical</p>
 					<h1 className={tw.title}>
-						Hello, I'm <span className={tw.titleSpan}>Sav</span>
+						Hello, I&apos;m <span className={tw.titleSpan}>Sav</span>
 					</h1>
 					<h1 className={tw.descriptionTitle}>A Front-End Web Developer</h1>
 					<p className={tw.description}>

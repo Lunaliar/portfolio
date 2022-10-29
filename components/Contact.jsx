@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from "react-icons/bs";
 import {HiOutlineChevronDoubleUp} from "react-icons/hi";
 import Link from "next/link";
 import ContactIcons from "./ContactIcons";
+import Image from "next/image";
 function Contact() {
 	const tw = {
 		component: "w-full lg:h-screen pt-24 p-2",
@@ -60,7 +61,7 @@ function Contact() {
 								<p>Front-End Developer</p>
 								<p className={tw.leftP2}>
 									I am available for freelance or full-time positions. Contact
-									me and let's talk.
+									me and let&apos;s talk.
 								</p>
 							</>
 							<>

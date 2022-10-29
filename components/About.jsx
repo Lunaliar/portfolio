@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function About() {
@@ -19,7 +20,7 @@ function About() {
 				<div className={tw.aboutContainer}>
 					<p className={tw.aboutTitle}>About</p>
 					<h2 className={tw.abouth2}>Who I Am</h2>
-					<p className={tw.aboutp}>//Not a normal developer</p>
+					<p className={tw.aboutp}>&#47;&#47;Not a normal developer</p>
 					<p className={tw.aboutp}>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
 						vitae perferendis doloribus consequuntur alias, commodi fugit quis

@@ -117,7 +117,7 @@ function Navbar() {
 			className={shadow ? tw.componentShadow : tw.componentNoShadow}
 		>
 			<div className={tw.container}>
-				<Link href="/">{imageRender(75)}</Link>
+				{imageRender(75)}
 				<div style={{color: `${linkColor}`}}>
 					{links(tw.ulLink, tw.liLink)}
 					<div onClick={handleNav} className={tw.openDrawer}>
@@ -132,21 +132,21 @@ function Navbar() {
 				>
 					<>
 						<div className={tw.drawerTop}>
-							<Link href="/">{imageRender(60)}</Link>
+							{imageRender(60)}
 							<div onClick={handleNav} className={tw.closeDrawer}>
 								<GrClose />
 							</div>
 						</div>
 						<div className={tw.messageContainer}>
 							<p className={tw.drawerMessage}>
-								Let's build something truly magical
+								Let&apos;s build something truly magical
 							</p>
 						</div>
 					</>
 					<div className={tw.drawerLinkContainer}>
 						{links(tw.drawerUlLink, tw.drawerLiLink)}
 						<div className={tw.contactContainer}>
-							<p className={tw.contactP}>Let's Connect</p>
+							<p className={tw.contactP}>Let&apos;s Connect</p>
 							<ContactIcons boxStyle={tw.iconBox} iconStyle={tw.icon} />
 						</div>
 					</div>

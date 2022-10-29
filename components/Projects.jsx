@@ -76,7 +76,7 @@ function Projects() {
 		<div id="projects" className={tw.component}>
 			<div className={tw.container}>
 				<p className={tw.titleP}>Projects</p>
-				<h2 className={tw.titleH2}>What I've Built</h2>
+				<h2 className={tw.titleH2}>What I&apos;ve Built</h2>
 				<div className={tw.projectContainer}>
 					{projects.map((m) => {
 						return (
