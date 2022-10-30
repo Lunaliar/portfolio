@@ -21,7 +21,7 @@ function Contact() {
 		leftH2: "py-2",
 		leftP2: "py-4",
 		leftP3: "uppercase pt-8",
-		iconBox: "flex items-center justify-between py-4",
+		iconBox: "flex items-center justify-around py-4",
 		icon: "rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300",
 		rightSide:
 			"col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4",

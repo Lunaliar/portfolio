@@ -5,18 +5,16 @@ import {BsFillPersonLinesFill} from "react-icons/bs";
 function ContactIcons({boxStyle, iconStyle, size}) {
 	return (
 		<div className={boxStyle}>
-			<div className={iconStyle}>
-				<FaLinkedinIn size={size} />
-			</div>
-			<div className={iconStyle}>
-				<FaGithub size={size} />
-			</div>
-			<div className={iconStyle}>
-				<GrMailOption size={size} />
-			</div>
-			<div className={iconStyle}>
-				<BsFillPersonLinesFill size={size} />
-			</div>
+			<a href="https://www.linkedin.com/in/savcodes/">
+				<div className={iconStyle}>
+					<FaLinkedinIn size={size} />
+				</div>
+			</a>
+			<a href="https://github.com/Lunaliar">
+				<div className={iconStyle}>
+					<FaGithub size={size} />
+				</div>
+			</a>
 		</div>
 	);
 }

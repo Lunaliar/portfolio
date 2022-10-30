@@ -27,10 +27,11 @@ function Main() {
 					</h1>
 					<h1 className={tw.descriptionTitle}>A Front-End Web Developer</h1>
 					<p className={tw.description}>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, hic
-						ipsam repellat iure nisi iusto sit, quisquam iste ipsum similique
-						facilis consequatur! Sunt culpa rem facere deleniti voluptate
-						numquam beatae.
+						I&apos;m a junior web developer and it{"'"}s wonderful to make your
+						aquantence. I was initially trained through Udemy with one of Colt
+						Steele{"'"}s courses. Now having practiced much in React I am ready
+						and capable of solving most problems junior developers can face in
+						the industry! Hard work and enthusiasm are my best traits.
 					</p>
 					<ContactIcons boxStyle={tw.iconBox} iconStyle={tw.icon} size="40" />
 				</div>
