@@ -13,7 +13,7 @@ function Main() {
 		titleSpan: "text-[#5651e5]",
 		descriptionTitle: "py-2 text-gray-700",
 		description: "py-4 text-gray-600 max-w-[70%] m-auto",
-		iconBox: "flex items-center justify-around max-w-[500px] m-auto py-4",
+		iconBox: "flex items-center justify-around max-w-[500px] m-auto pt-4 pb-8",
 		icon: "rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300",
 	};
 

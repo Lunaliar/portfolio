@@ -63,7 +63,7 @@ function Skills() {
 			img: "github.png",
 		},
 	];
-	const skillCard = (img, title) => {
+	function SkillCard({img, title}) {
 		return (
 			<div className={tw.GridCard} key={title}>
 				<div className={tw.GridItem}>
@@ -73,7 +73,6 @@ function Skills() {
 							width="64px"
 							height="64px"
 							alt="/"
-							key={title}
 						/>
 					</div>
 					<div className={tw.itemBottom}>
@@ -82,7 +81,7 @@ function Skills() {
 				</div>
 			</div>
 		);
-	};
+	}
 	return (
 		<div id="skills" className={tw.component}>
 			<div className={tw.container}>
@@ -90,7 +89,7 @@ function Skills() {
 				<h2 className={tw.skillh2}>What I can do</h2>
 				<div className={tw.GridContainer}>
 					{skillIcons.map((s) => {
-						return skillCard(s.img, s.title);
+						return <SkillCard img={s.img} title={s.title} key={s.title} />;
 					})}
 				</div>
 			</div>

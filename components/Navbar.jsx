@@ -38,21 +38,6 @@ const linkData = [
 	{name: "Projects", url: "/#projects"},
 	{name: "Contact", url: "/#contact"},
 ];
-function Links({ulTail, liTail}) {
-	return (
-		<ul className={ulTail}>
-			{linkData.map((link) => {
-				return (
-					<Link href={link.url} key={link.name}>
-						<li onClick={() => setNav(false)} className={liTail}>
-							{link.name}
-						</li>
-					</Link>
-				);
-			})}
-		</ul>
-	);
-}
 
 function WitchHat({size}) {
 	return (
@@ -84,6 +69,21 @@ function Navbar() {
 		window.addEventListener("scroll", handleShadow);
 	}, []);
 
+	function Links({ulTail, liTail}) {
+		return (
+			<ul className={ulTail}>
+				{linkData.map((link) => {
+					return (
+						<Link href={link.url} key={link.name}>
+							<li onClick={() => setNav(false)} className={liTail}>
+								{link.name}
+							</li>
+						</Link>
+					);
+				})}
+			</ul>
+		);
+	}
 	const handleNav = () => {
 		setNav((currNav) => !currNav);
 	};
