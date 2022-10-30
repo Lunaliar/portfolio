@@ -69,7 +69,7 @@ function Skills() {
 				<div className={tw.GridItem}>
 					<div className={tw.itemTop}>
 						<Image
-							src={`/../public/assets/skills/${img}`}
+							src={`/assets/skills/${img}`}
 							width="64px"
 							height="64px"
 							alt="/"

@@ -42,7 +42,7 @@ const linkData = [
 function WitchHat({size}) {
 	return (
 		<Image
-			src="/../public/assets/witch-hat.png"
+			src="/assets/witch-hat.png"
 			alt="/"
 			className={tw.logoImg}
 			width={size}
