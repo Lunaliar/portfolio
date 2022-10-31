@@ -13,7 +13,8 @@ const tw = {
 	iconBox: "flex items-center justify-around max-w-[500px] m-auto pt-4 pb-8",
 	icon: "rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300",
 };
-
+const mainText =
+	"I am a React Javascript developer and I love to solve problems. I also really enjoy using my creativity to make great UX and UI	designs for my websites. Take a look at some of my work below or my	other profiles on Linkedin or Github. I look forward to working with you!";
 function Main() {
 	return (
 		<div id="main" className={tw.component}>
@@ -24,13 +25,7 @@ function Main() {
 						Hello, I&apos;m <span className={tw.titleSpan}>Sav</span>
 					</h1>
 					<h1 className={tw.descriptionTitle}>A Front-End Web Developer</h1>
-					<p className={tw.description}>
-						I&apos;m a junior web developer and it{"'"}s wonderful to make your
-						aquantence. I was initially trained through Udemy with one of Colt
-						Steele{"'"}s courses. Now having practiced much in React I am ready
-						and capable of solving most problems junior developers can face in
-						the industry! Hard work and enthusiasm are my best traits.
-					</p>
+					<p className={tw.description}>{mainText}</p>
 					<ContactIcons boxStyle={tw.iconBox} iconStyle={tw.icon} size="40" />
 				</div>
 			</div>
