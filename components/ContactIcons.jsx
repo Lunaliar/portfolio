@@ -5,12 +5,12 @@ import {BsFillPersonLinesFill} from "react-icons/bs";
 function ContactIcons({boxStyle, iconStyle, size}) {
 	return (
 		<div className={boxStyle}>
-			<a href="https://www.linkedin.com/in/savcodes/">
+			<a href="https://www.linkedin.com/in/savcodes/" aria-label="Github">
 				<div className={iconStyle}>
 					<FaLinkedinIn size={size} />
 				</div>
 			</a>
-			<a href="https://github.com/Lunaliar">
+			<a href="https://github.com/Lunaliar" aria-label="LinkedIn">
 				<div className={iconStyle}>
 					<FaGithub size={size} />
 				</div>
