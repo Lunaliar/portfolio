@@ -1,10 +1,8 @@
-import React, {useState, useEffect} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {useRouter} from "next/router";
-import {GrClose, GrMailOption, GrMenu} from "react-icons/gr";
-import {FaGithub, FaLinkedinIn} from "react-icons/fa";
-import {BsFillPersonLinesFill} from "react-icons/bs";
+import React, {useEffect, useState} from "react";
+import {GrClose, GrMenu} from "react-icons/gr";
 import ContactIcons from "./ContactIcons";
 const tw = {
 	componentShadow:
@@ -12,8 +10,8 @@ const tw = {
 	componentNoShadow: "fixed w-full h-20 z-[100]",
 	container: "flex justify-between items-center w-full h-full px-2 2xl:px-16",
 	logoImg: "cursor-pointer",
-	ulLink: "hidden md:flex",
-	liLink: "ml-10 text-sm uppercase hover:text-[#5651e5]",
+	linkUl: "hidden md:flex",
+	linkLi: "ml-10 text-sm uppercase hover:text-[#5651e5]",
 	openDrawer: "md:hidden",
 	drawerComponent: "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70",
 	drawerContainerOpen:
@@ -24,8 +22,8 @@ const tw = {
 	messageContainer: "border-b border-gray-300 my-4",
 	drawerMessage: "w-[85%] md:w-[90%] py-4",
 	drawerLinkContainer: "py-4 flex flex-col",
-	drawerUlLink: "uppercase",
-	drawerLiLink: "py-4 text-sm",
+	drawerLinkUl: "uppercase",
+	drawerLinkLi: "py-4 text-sm",
 	contactContainer: "pt-8",
 	contactP: "uppercase tracking-widest text-[#5651e5]",
 	iconBox: "flex items-center justify-around my-4 w-full sm:w-[80%]",
@@ -55,27 +53,27 @@ function Navbar() {
 	const router = useRouter();
 	const isHomePage = router.pathname === "/";
 
-	const [nav, setNav] = useState(false);
-	const [shadow, setShadow] = useState(false);
+	const [drawerIsOpen, setDrawerIsOpen] = useState(false);
+	const [hasShadow, setHasShadow] = useState(false);
 
 	useEffect(() => {
 		const handleShadow = () => {
 			if (window.scrollY >= 90) {
-				setShadow(true);
+				setHasShadow(true);
 			} else {
-				setShadow(false);
+				setHasShadow(false);
 			}
 		};
 		window.addEventListener("scroll", handleShadow);
 	}, []);
 
-	function Links({ulTail, liTail}) {
+	function Links({ulTw, liTw}) {
 		return (
-			<ul className={ulTail}>
+			<ul className={ulTw}>
 				{linkData.map((link) => {
 					return (
 						<Link href={link.url} key={link.name}>
-							<li onClick={() => setNav(false)} className={liTail}>
+							<li onClick={() => setDrawerIsOpen(false)} className={liTw}>
 								{link.name}
 							</li>
 						</Link>
@@ -84,33 +82,35 @@ function Navbar() {
 			</ul>
 		);
 	}
-	const handleNav = () => {
-		setNav((currNav) => !currNav);
+	const handleDrawer = () => {
+		setDrawerIsOpen((drawerOpen) => !drawerOpen);
 	};
 
 	return (
 		<div
 			style={{backgroundColor: isHomePage ? "#ecf0f3" : "transparent"}}
-			className={shadow ? tw.componentShadow : tw.componentNoShadow}
+			className={hasShadow ? tw.componentShadow : tw.componentNoShadow}
 		>
 			<div className={tw.container}>
 				<WitchHat size={70} />
 				<div style={{color: isHomePage ? "#1f2937" : "#ecf0f3"}}>
-					<Links ulTail={tw.ulLink} liTail={tw.liLink} />
-					<div onClick={handleNav} className={tw.openDrawer}>
+					<Links ulTw={tw.linkUl} liTw={tw.linkLi} />
+					<div onClick={handleDrawer} className={tw.openDrawer}>
 						<GrMenu size={25} />
 					</div>
 				</div>
 			</div>
 
-			<div className={nav ? tw.drawerComponent : ""}>
+			<div className={drawerIsOpen ? tw.drawerComponent : ""}>
 				<div
-					className={nav ? tw.drawerContainerOpen : tw.drawerContainerClosed}
+					className={
+						drawerIsOpen ? tw.drawerContainerOpen : tw.drawerContainerClosed
+					}
 				>
 					<>
 						<div className={tw.drawerTop}>
 							<WitchHat size={60} />
-							<div onClick={handleNav} className={tw.closeDrawer}>
+							<div onClick={handleDrawer} className={tw.closeDrawer}>
 								<GrClose />
 							</div>
 						</div>
@@ -121,7 +121,7 @@ function Navbar() {
 						</div>
 					</>
 					<div className={tw.drawerLinkContainer}>
-						<Links ulTail={tw.drawerUlLink} liTail={tw.drawerLiLink} />
+						<Links ulTw={tw.drawerLinkUl} liTw={tw.drawerLinkLi} />
 						<div className={tw.contactContainer}>
 							<p className={tw.contactP}>Let&apos;s Connect</p>
 							<ContactIcons boxStyle={tw.iconBox} iconStyle={tw.icon} />

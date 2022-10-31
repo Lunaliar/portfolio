@@ -1,19 +1,19 @@
-import Image from "next/image";
 import React from "react";
 
+const tw = {
+	component: "w-full md:screen p-2 pt-24 flex items-center py-16",
+	container: "max-w-[1240px] m-auto md:grid grid-cols-3 gap-8",
+	aboutContainer: "col-span-2",
+	aboutTitle: "uppercase texl-xl tracking-widest text-[#5651e5]",
+	abouth2: "py-4",
+	aboutp: "py-2 text-gray-600",
+	aboutPLink: "py-2 text-gray-600 underline cursor-pointer",
+	imageContainer:
+		"w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300",
+	image: "rounded-xl",
+};
+
 function About() {
-	const tw = {
-		component: "w-full md:screen p-2 pt-24 flex items-center py-16",
-		container: "max-w-[1240px] m-auto md:grid grid-cols-3 gap-8",
-		aboutContainer: "col-span-2",
-		aboutTitle: "uppercase texl-xl tracking-widest text-[#5651e5]",
-		abouth2: "py-4",
-		aboutp: "py-2 text-gray-600",
-		aboutPLink: "py-2 text-gray-600 underline cursor-pointer",
-		imageContainer:
-			"w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300",
-		image: "rounded-xl",
-	};
 	return (
 		<div id="about" className={tw.component}>
 			<div className={tw.container}>

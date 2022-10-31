@@ -1,52 +1,44 @@
-import React from "react";
-import {GrMailOption} from "react-icons/gr";
-import {FaGithub, FaLinkedinIn} from "react-icons/fa";
-import {BsFillPersonLinesFill} from "react-icons/bs";
-import {HiOutlineChevronDoubleUp} from "react-icons/hi";
 import Link from "next/link";
+import React from "react";
+import {HiOutlineChevronDoubleUp} from "react-icons/hi";
 import ContactIcons from "./ContactIcons";
-import Image from "next/image";
-function Contact() {
-	const tw = {
-		component: "w-full lg:h-screen pt-24 p-2",
-		container:
-			"max-w-[1240px] px-2 w-full flex flex-col justify-center mx-auto",
-		titleP: "text-xl tracking-widest uppercase text-[#5651e5]",
-		titleH2: "py-4",
-		gridContainer: "grid lg:grid-cols-5 gap-8",
-		leftSide:
-			"col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4",
-		leftContainer: "lg:p-4 h-full rounded-xl",
-		leftImage: "rounded-xl hover:scale-105 ease-in duration-300",
-		leftH2: "py-2",
-		leftP2: "py-4",
-		leftP3: "uppercase pt-8",
-		iconBox: "flex items-center justify-around py-4",
-		icon: "rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300",
-		rightSide:
-			"col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4",
-		rightContainer: "p-4",
-		formGrid: "grid md:grid-cols-2 gap-4 w-full py-2",
-		inputContainer: "flex flex-col py-2",
-		label: "uppercase text-sm py-2",
-		input: "border-2 rounded-lg p-3 flex border-gray-300",
-		textArea: "border-2 rounded-lg p-3 border-gray-300",
-		button: "w-full p-4 mt-4 text-gray-100",
-		chevContainer: "flex justify-center py-12",
-		chevIcon:
-			"rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#5651e5]",
-	};
 
-	const contactIcon = (icon) => {
-		return <div className={tw.icon}>{icon}</div>;
-	};
+const tw = {
+	component: "w-full lg:h-screen pt-24 p-2",
+	container: "max-w-[1240px] px-2 w-full flex flex-col justify-center mx-auto",
+	titleP: "text-xl tracking-widest uppercase text-[#5651e5]",
+	titleH2: "py-4",
+	gridContainer: "grid lg:grid-cols-5 gap-8",
+	leftSide:
+		"col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4",
+	leftContainer: "lg:p-4 h-full rounded-xl",
+	leftImage: "rounded-xl hover:scale-105 ease-in duration-300",
+	leftH2: "py-2",
+	leftP2: "py-4",
+	leftP3: "uppercase pt-8",
+	iconBox: "flex items-center justify-around py-4",
+	icon: "rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300",
+	rightSide:
+		"col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4",
+	rightContainer: "p-4",
+	formGrid: "grid md:grid-cols-2 gap-4 w-full py-2",
+	inputContainer: "flex flex-col py-2",
+	label: "uppercase text-sm py-2",
+	input: "border-2 rounded-lg p-3 flex border-gray-300",
+	textArea: "border-2 rounded-lg p-3 border-gray-300",
+	button: "w-full p-4 mt-4 text-gray-100",
+	chevContainer: "flex justify-center py-12",
+	chevIcon:
+		"rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#5651e5]",
+};
+
+function Contact() {
 	return (
 		<div id="contact" className={tw.component}>
 			<div className={tw.container}>
 				<p className={tw.titleP}>Contact</p>
 				<h2 className={tw.titleH2}>Get In Touch</h2>
 				<div className={tw.gridContainer}>
-					{/*left side */}
 					<div className={tw.leftSide}>
 						<div className={tw.leftContainer}>
 							<>
@@ -74,8 +66,6 @@ function Contact() {
 							</>
 						</div>
 					</div>
-
-					{/* right side*/}
 					<div className={tw.rightSide}>
 						<div className={tw.rightContainer}>
 							<form>

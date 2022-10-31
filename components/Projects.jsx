@@ -7,6 +7,7 @@ import jarprepimg from "../public/assets/projects/jarprep.png";
 import todolistimg from "../public/assets/projects/todolist.png";
 import weatherappimg from "../public/assets/projects/weatherapp.png";
 import ProjectItem from "./ProjectItem";
+
 const tw = {
 	component: "w-full h-auto pt-8 p-2",
 	container: "max-w-[1240px] mx-auto px-2 py-16 flex flex-col justify-center",
