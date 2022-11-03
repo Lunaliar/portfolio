@@ -22,7 +22,7 @@ export const projectData = {
 		framework: "React JS",
 		techs: ["React", "Axios", "CSS"],
 		gitHubUrl: "https://github.com/Lunaliar/cheezjokes",
-		deployUrl: "",
+		deployUrl: "https://dadjokes-liard.vercel.app/",
 		url: "/about/dadjokes",
 		image: dadjokesimg,
 		description:
@@ -33,7 +33,7 @@ export const projectData = {
 		framework: "React JS",
 		techs: ["React JS", "SASS", "Firebase"],
 		gitHubUrl: "https://github.com/Lunaliar/Chat-App",
-		deployUrl: "",
+		deployUrl: "https://chat-app-sigma-dun.vercel.app/login",
 		url: "/about/chatapp",
 		image: chatappimg,
 		description:
@@ -44,7 +44,7 @@ export const projectData = {
 		framework: "CSS/React JS",
 		techs: ["React JS", "CSS"],
 		gitHubUrl: "https://github.com/Lunaliar/Jar-Prep-App",
-		deployUrl: "",
+		deployUrl: "https://jar-prep-app.vercel.app/",
 		url: "/about/jarprep",
 		image: jarprepimg,
 		description:
@@ -55,7 +55,7 @@ export const projectData = {
 		framework: "React JS",
 		techs: ["REACT JS", "CSS"],
 		gitHubUrl: "https://github.com/Lunaliar/Todo-List",
-		deployUrl: "",
+		deployUrl: "https://todo-list-olive-psi.vercel.app/",
 		url: "/about/todolist",
 		image: todolistimg,
 		description:
@@ -66,7 +66,7 @@ export const projectData = {
 		framework: "React JS",
 		techs: ["React JS", "Axios", "OpenWeather API", "SASS"],
 		gitHubUrl: "https://github.com/Lunaliar/Weather-app",
-		deployUrl: "",
+		deployUrl: "https://weather-app-psi-sand-70.vercel.app/",
 		url: "/about/weatherapp",
 		image: weatherappimg,
 		description:

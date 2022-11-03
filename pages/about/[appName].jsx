@@ -84,7 +84,9 @@ function App({appName}) {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>{data.description}</p>
-					<button className={tw.buttontop}>Demo</button>
+					<a href={data.deployUrl}>
+						<button className={tw.buttontop}>Demo</button>
+					</a>
 					<a href={data.gitHubUrl}>
 						<button className={tw.buttonbottom}>Code</button>
 					</a>
