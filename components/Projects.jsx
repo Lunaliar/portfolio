@@ -39,17 +39,6 @@ export const projectData = {
 		description:
 			"This is a chat app I made to practice firebase and test my skills at using a new data base since previously I only had experience with Mongo DB. I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past",
 	},
-	jarprep: {
-		title: "Jar Prep",
-		framework: "CSS/React JS",
-		techs: ["React JS", "CSS"],
-		gitHubUrl: "https://github.com/Lunaliar/Jar-Prep-App",
-		deployUrl: "https://jar-prep-app.vercel.app/",
-		url: "/about/jarprep",
-		image: jarprepimg,
-		description:
-			"This is a recipe website Im working on for simple jar recipes. As someone who often struggles to avoid fastfood or delivery mealprepping my meals has become a neccessity in my daily life both for my happiness and my wallet!",
-	},
 	todolist: {
 		title: "To-do List",
 		framework: "React JS",
@@ -71,6 +60,17 @@ export const projectData = {
 		image: weatherappimg,
 		description:
 			"I made this app to test my abilities making dependent API calls and really flexing my muscles with SASS for the first time. I found I really enjoy setting up responsive pages that reflect lots of data in an easily digestable manner.",
+	},
+		jarprep: {
+		title: "Jar Prep",
+		framework: "CSS/React JS",
+		techs: ["React JS", "CSS"],
+		gitHubUrl: "https://github.com/Lunaliar/Jar-Prep-App",
+		deployUrl: "https://jar-prep-app.vercel.app/",
+		url: "/about/jarprep",
+		image: jarprepimg,
+		description:
+			"This is a recipe website Im working on for simple jar recipes. As someone who often struggles to avoid fastfood or delivery mealprepping my meals has become a neccessity in my daily life both for my happiness and my wallet!",
 	},
 };
 
