@@ -84,10 +84,10 @@ function App({appName}) {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>{data.description}</p>
-					<a href={data.deployUrl} target="_blank">
+					<a href={data.deployUrl} target="_blank" rel="noopener noreferrer">
 						<button className={tw.buttontop}>Demo</button>
 					</a>
-					<a href={data.gitHubUrl} target="_blank">
+					<a href={data.gitHubUrl} target="_blank" rel="noopener noreferrer">
 						<button className={tw.buttonbottom}>Code</button>
 					</a>
 				</div>
