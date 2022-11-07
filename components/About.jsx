@@ -57,11 +57,7 @@ function About() {
 					</Link>
 				</div>
 				<div className={tw.imageContainer}>
-					<img
-						className={tw.image}
-						src="/assets/cats.jpg"
-						alt="/"
-					/>
+					<img className={tw.image} src="/assets/cats.jpg" alt="/" />
 				</div>
 			</div>
 		</div>
