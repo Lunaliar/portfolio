@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -57,7 +58,11 @@ function About() {
 					</Link>
 				</div>
 				<div className={tw.imageContainer}>
-					<img className={tw.image} src="/assets/cats.jpg" alt="/" />
+					<img
+						className={tw.image}
+						src="https://images.unsplash.com/photo-1576086409784-e70fe9813156?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
+						alt="/"
+					/>
 				</div>
 			</div>
 		</div>
