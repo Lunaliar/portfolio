@@ -61,7 +61,7 @@ export const projectData = {
 		description:
 			"I made this app to test my abilities making dependent API calls and really flexing my muscles with SASS for the first time. I found I really enjoy setting up responsive pages that reflect lots of data in an easily digestable manner.",
 	},
-		jarprep: {
+	jarprep: {
 		title: "Jar Prep",
 		framework: "CSS/React JS",
 		techs: ["React JS", "CSS"],
