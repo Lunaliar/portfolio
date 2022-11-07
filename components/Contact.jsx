@@ -42,11 +42,17 @@ function Contact() {
 					<div className={tw.leftSide}>
 						<div className={tw.leftContainer}>
 							<>
-								<img
-									className={tw.leftImage}
-									src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-									alt="/"
-								/>
+								<picture>
+									<source
+										srcSet="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+										type="image/webp"
+									/>
+									<img
+										className={tw.leftImage}
+										src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+										alt="/"
+									/>
+								</picture>
 							</>
 							<>
 								<h2 className={tw.leftH2}>Sav</h2>
