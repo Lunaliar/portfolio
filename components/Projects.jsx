@@ -6,6 +6,9 @@ import chatappimg from "../public/assets/projects/groupchat.png";
 import jarprepimg from "../public/assets/projects/jarprep.png";
 import todolistimg from "../public/assets/projects/todolist.png";
 import weatherappimg from "../public/assets/projects/weatherapp.png";
+import hangmanimg from "../public/assets/projects/hangman.png";
+import npcgenimg from "../public/assets/projects/npcgen.png";
+
 import ProjectItem from "./ProjectItem";
 
 const tw = {
@@ -60,6 +63,28 @@ export const projectData = {
 		image: weatherappimg,
 		description:
 			"I made this app to test my abilities making dependent API calls and really flexing my muscles with SASS for the first time. I found I really enjoy setting up responsive pages that reflect lots of data in an easily digestable manner.",
+	},
+	hangman: {
+		title: "Hangman",
+		framework: "React JS",
+		techs: ["React JS", "CSS", "Typescript", "Vite"],
+		gitHubUrl: "https://github.com/Lunaliar/hangman",
+		deployUrl: "https://hangman-dun-delta.vercel.app/",
+		url: "/about/hangman",
+		image: hangmanimg,
+		description:
+			"This is a little practice project I made with some help to solidify my working knowledge of typescript.",
+	},
+	npcgenerator: {
+		title: "NPC Generator",
+		framework: "React JS",
+		techs: ["React JS", "CSS"],
+		gitHubUrl: "https://github.com/Lunaliar/npc-generator",
+		deployUrl: "https://npc-generator-two.vercel.app/",
+		url: "/about/npcgenerator",
+		image: npcgenimg,
+		description:
+			"I started the project with the help of my two friends Jake and Lino. I wanted an easier way to create random Non player characters for my D&D campaigns.",
 	},
 	jarprep: {
 		title: "Jar Prep",
