@@ -39,6 +39,7 @@ function ContactForm() {
 				</label>
 				<input
 					type="text"
+					value={values?.name}
 					className={tw.input}
 					id="name"
 					required
@@ -51,6 +52,7 @@ function ContactForm() {
 				</label>
 				<input
 					type="email"
+					value={values?.email}
 					className={tw.input}
 					id="email"
 					required
@@ -62,6 +64,7 @@ function ContactForm() {
 					Subject
 				</label>
 				<input
+					value={values?.subject}
 					type="text"
 					className={tw.input}
 					id="subject"
@@ -76,6 +79,7 @@ function ContactForm() {
 				<textarea
 					className={tw.textArea}
 					rows="10"
+					value={values?.message}
 					id="message"
 					required
 					onChange={(e) => setValues({...values, message: e.target.value})}
