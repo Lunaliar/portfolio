@@ -25,6 +25,7 @@ function ContactForm() {
 			await sendContactForm(values);
 			setLoading(false);
 			setValues(initValues);
+			alert("Sent successfully");
 		} catch (error) {
 			console.log(error);
 			setLoading(false);
