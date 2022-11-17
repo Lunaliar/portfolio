@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import {HiOutlineChevronDoubleUp} from "react-icons/hi";
+import ContactForm from "./ContactForm";
 import ContactIcons from "./ContactIcons";
 
 const tw = {
@@ -74,45 +75,7 @@ function Contact() {
 					</div>
 					<div className={tw.rightSide}>
 						<div className={tw.rightContainer}>
-							<form>
-								<div className={tw.formGrid}>
-									<div className={tw.inputContainer}>
-										<label className={tw.label} htmlFor="name">
-											Name
-										</label>
-										<input type="text" className={tw.input} id="name" />
-									</div>
-									<div className={tw.inputContainer}>
-										<label className={tw.label} htmlFor="phone">
-											Phone Number
-										</label>
-										<input type="tel" className={tw.input} id="phone" />
-									</div>
-								</div>
-								<div className={tw.inputContainer}>
-									<label className={tw.label} htmlFor="email">
-										Email
-									</label>
-									<input type="email" className={tw.input} id="email" />
-								</div>
-								<div className={tw.inputContainer}>
-									<label className={tw.label} htmlFor="subject">
-										Subject
-									</label>
-									<input type="text" className={tw.input} id="subject" />
-								</div>
-								<div className={tw.inputContainer}>
-									<label className={tw.label} htmlFor="message">
-										Message
-									</label>
-									<textarea
-										className={tw.textArea}
-										rows="10"
-										id="message"
-									></textarea>
-								</div>
-								<button className={tw.button}>Send Message</button>
-							</form>
+							<ContactForm />
 						</div>
 					</div>
 				</div>
