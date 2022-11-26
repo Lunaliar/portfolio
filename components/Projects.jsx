@@ -32,11 +32,11 @@ export const projectData = {
 			"USE AT YOUR PERIL... This is a dad joke generator, if you ever find yourself with too many friends or not enough dad energy in your life this is the app for you. I made this while learning to use React JS and making api calls with axios.",
 	},
 	chatapp: {
-		title: "Chat App",
+		title: "Chatty Friends",
 		framework: "React JS",
 		techs: ["React JS", "SASS", "Firebase"],
-		gitHubUrl: "https://github.com/Lunaliar/Chat-App",
-		deployUrl: "https://chat-app-sigma-dun.vercel.app/login",
+		gitHubUrl: "https://github.com/Lunaliar/Chatty-Friends",
+		deployUrl: "https://chatty-friends.vercel.app/login",
 		url: "/about/chatapp",
 		image: chatappimg,
 		description:
