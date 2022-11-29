@@ -1,14 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import calcimg from "../public/assets/projects/calcimg.png";
 import dadjokesimg from "../public/assets/projects/dadjokes.png";
 import chatappimg from "../public/assets/projects/groupchat.png";
-import jarprepimg from "../public/assets/projects/jarprep.png";
-import todolistimg from "../public/assets/projects/todolist.png";
-import weatherappimg from "../public/assets/projects/weatherapp.png";
 import hangmanimg from "../public/assets/projects/hangman.png";
 import npcgenimg from "../public/assets/projects/npcgen.png";
-import calcimg from "../public/assets/projects/calcimg.png";
+import todolistimg from "../public/assets/projects/todolist.png";
+import weatherappimg from "../public/assets/projects/weatherapp.png";
 import ProjectItem from "./ProjectItem";
 
 const tw = {
@@ -97,17 +94,18 @@ export const projectData = {
 		description:
 			"Calculators are a marathon, a very simple problem that gets exponentially bigger if anything is added ontop of the basic functions. I originally made this app about a year ago while learning Javascript. I wanted to come back and try to refactor this into something more cohesive and simpler with React JS.",
 	},
-	jarprep: {
-		title: "Jar Prep",
-		framework: "CSS/React JS",
-		techs: ["React JS", "CSS"],
-		gitHubUrl: "https://github.com/Lunaliar/Jar-Prep-App",
-		deployUrl: "https://jar-prep-app.vercel.app/",
-		url: "/about/jarprep",
-		image: jarprepimg,
-		description:
-			"This is a recipe website Im working on for simple jar recipes. As someone who often struggles to avoid fastfood or delivery mealprepping my meals has become a neccessity in my daily life both for my happiness and my wallet!",
-	},
+	// jarprep: {
+	// import jarprepimg from "../public/assets/projects/jarprep.png";
+	// 	title: "Jar Prep",
+	// 	framework: "CSS/React JS",
+	// 	techs: ["React JS", "CSS"],
+	// 	gitHubUrl: "https://github.com/Lunaliar/Jar-Prep-App",
+	// 	deployUrl: "https://jar-prep-app.vercel.app/",
+	// 	url: "/about/jarprep",
+	// 	image: jarprepimg,
+	// 	description:
+	// 		"This is a recipe website Im working on for simple jar recipes. As someone who often struggles to avoid fastfood or delivery mealprepping my meals has become a neccessity in my daily life both for my happiness and my wallet!",
+	// },
 };
 
 function Projects() {
