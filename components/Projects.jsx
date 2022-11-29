@@ -8,7 +8,8 @@ import todolistimg from "../public/assets/projects/todolist.png";
 import weatherappimg from "../public/assets/projects/weatherapp.png";
 import hangmanimg from "../public/assets/projects/hangman.png";
 import npcgenimg from "../public/assets/projects/npcgen.png";
-
+import calcimg from "../public/assets/projects/calcimg.png";
+// import calcimg from "../public/assets/projects/calcimg.png";
 import ProjectItem from "./ProjectItem";
 
 const tw = {
@@ -85,6 +86,16 @@ export const projectData = {
 		image: npcgenimg,
 		description:
 			"I started the project with the help of my two friends Jake and Lino. I wanted an easier way to create random Non player characters for my D&D campaigns.",
+	},
+	calculator: {
+		title: "Calculator",
+		framework: "React JS",
+		techs: ["React JS", "CSS"],
+		gitHubUrl: "https://github.com/Lunaliar/Calculator",
+		deployUrl: "https://calculator-orpin-beta.vercel.app/",
+		url: "/about/calculator",
+		image: calcimg,
+		description: "",
 	},
 	jarprep: {
 		title: "Jar Prep",
