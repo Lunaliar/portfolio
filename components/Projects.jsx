@@ -9,7 +9,6 @@ import weatherappimg from "../public/assets/projects/weatherapp.png";
 import hangmanimg from "../public/assets/projects/hangman.png";
 import npcgenimg from "../public/assets/projects/npcgen.png";
 import calcimg from "../public/assets/projects/calcimg.png";
-// import calcimg from "../public/assets/projects/calcimg.png";
 import ProjectItem from "./ProjectItem";
 
 const tw = {
@@ -95,7 +94,8 @@ export const projectData = {
 		deployUrl: "https://calculator-orpin-beta.vercel.app/",
 		url: "/about/calculator",
 		image: calcimg,
-		description: "",
+		description:
+			"Calculators are a marathon, a very simple problem that gets exponentially bigger if anything is added ontop of the basic functions. I originally made this app about a year ago while learning Javascript. I wanted to come back and try to refactor this into something more cohesive and simpler with React JS.",
 	},
 	jarprep: {
 		title: "Jar Prep",
