@@ -63,20 +63,23 @@ function App({appName}) {
 		<div className={tw.component}>
 			<Head>
 				<title>{data.title}</title>
+				<link rel="icon" href="/assets/witch-hat.png" />
 			</Head>
 			<div className={tw.container}>
-				<div className={tw.topBar} />
-				<Image
-					src={data.image}
-					alt="/"
-					className={tw.barImg}
-					layout="fill"
-					objectFit="cover"
-				/>
-				<div className={tw.titleBox}>
-					<h2 className={tw.titleH2}>{data.title}</h2>
-					<h3>{data.framework}</h3>
-				</div>
+				<a href={data.deployUrl} target="_blank" rel="noreferrer">
+					<div className={tw.topBar} />
+					<Image
+						src={data.image}
+						alt="/"
+						className={tw.barImg}
+						layout="fill"
+						objectFit="cover"
+					/>
+					<div className={tw.titleBox}>
+						<h2 className={tw.titleH2}>{data.title}</h2>
+						<h3>{data.framework}</h3>
+					</div>
+				</a>
 			</div>
 
 			<div className={tw.bottom}>

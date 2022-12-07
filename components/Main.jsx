@@ -24,7 +24,7 @@ function Main() {
 					<h1 className={tw.title}>
 						Hello, I&apos;m <span className={tw.titleSpan}>Sav</span>
 					</h1>
-					<h1 className={tw.descriptionTitle}>A Front-End Web Developer</h1>
+					<h1 className={tw.descriptionTitle}>A Front-End Developer</h1>
 					<p className={tw.description}>{mainText}</p>
 					<ContactIcons boxStyle={tw.iconBox} iconStyle={tw.icon} size="40" />
 				</div>
