@@ -18,7 +18,7 @@ const tw = {
 	leftP2: "py-4",
 	leftP3: "uppercase pt-8",
 	iconBox: "flex items-center justify-around py-4",
-	icon: "rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300",
+	icon: "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300",
 	rightSide:
 		"col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4",
 	rightContainer: "p-4",
@@ -68,7 +68,7 @@ function Contact() {
 								<ContactIcons
 									boxStyle={tw.iconBox}
 									iconStyle={tw.icon}
-									size="20"
+									size="40"
 								/>
 							</>
 						</div>

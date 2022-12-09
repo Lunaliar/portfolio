@@ -11,7 +11,7 @@ const tw = {
 	descriptionTitle: "py-2 text-gray-700",
 	description: "py-4 text-gray-600 max-w-[70%] m-auto",
 	iconBox: "flex items-center justify-around max-w-[500px] m-auto pt-4 pb-8",
-	icon: "rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300",
+	icon: "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300",
 };
 const mainText =
 	"I am a React JavaScript developer and I love to solve problems. I also really enjoy using my creativity to make great UX and UI	designs for my websites. Take a look at some of my work below or my	other profiles on LinkedIn or GitHub. I look forward to working with you!";

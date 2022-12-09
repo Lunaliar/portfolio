@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 const tw = {
 	component: "w-full lg:h-screen p-2 pt-24",
@@ -6,7 +7,8 @@ const tw = {
 	skillTitle: "text-xl tracking-widest uppercase text-[#5651e5]",
 	skillh2: "py-4",
 	GridContainer: "grid md:grid-cols-2 lg:grid-cols-4 gap-8",
-	GridCard: "p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300",
+	GridCard:
+		"p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer",
 	GridItem: "grid grid-cols-2 gap-4 justify-center items-center",
 	itemTop: "m-auto",
 	itemBottom: "flex flex-col item-center justify-center",
@@ -16,50 +18,62 @@ const skillIcons = [
 	{
 		title: "HTML",
 		img: "html.png",
+		url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
 	},
 	{
 		title: "CSS",
 		img: "css.png",
+		url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
 	},
 	{
 		title: "JavaScript",
 		img: "js.png",
+		url: "https://www.javascript.com/",
 	},
 	{
 		title: "Node JS",
 		img: "nodeJS.png",
+		url: "https://nodejs.org/en/",
 	},
 	{
 		title: "Git Bash",
 		img: "gitbash.png",
+		url: "https://git-scm.com/",
 	},
 	{
 		title: "Mongo DB",
 		img: "mongodb.png",
+		url: "https://www.mongodb.com/home",
 	},
 	{
 		title: "React",
 		img: "react.png",
+		url: "https://reactjs.org/",
 	},
 	{
 		title: "Sass",
 		img: "scss.png",
+		url: "https://sass-lang.com/",
 	},
 	{
 		title: "Firebase",
 		img: "firebase.png",
+		url: "https://firebase.google.com/",
 	},
 	{
 		title: "Next JS",
 		img: "nextJS.png",
+		url: "https://nextjs.org/",
 	},
 	{
 		title: "Tailwind",
 		img: "tailwind.png",
+		url: "https://tailwindcss.com/",
 	},
 	{
 		title: "GitHub",
 		img: "github.png",
+		url: "https://github.com/Lunaliar",
 	},
 ];
 
@@ -91,7 +105,11 @@ function Skills() {
 				<h2 className={tw.skillh2}>What I can do</h2>
 				<div className={tw.GridContainer}>
 					{skillIcons.map((s) => {
-						return <SkillCard img={s.img} title={s.title} key={s.title} />;
+						return (
+							<Link href={s.url} target="_blank" rel="noreferrer">
+								<SkillCard img={s.img} title={s.title} key={s.title} />
+							</Link>
+						);
 					})}
 				</div>
 			</div>
