@@ -78,24 +78,26 @@ const skillIcons = [
 ];
 
 function Skills() {
-	function SkillCard({img, title}) {
+	function SkillCard({img, title, url}) {
 		return (
-			<div className={tw.GridCard} key={title}>
-				<div className={tw.GridItem}>
-					<div className={tw.itemTop}>
-						<Image
-							className="w-[auto] h-[64px]"
-							src={`/assets/skills/${img}`}
-							width={64}
-							height={64}
-							alt="/"
-						/>
-					</div>
-					<div className={tw.itemBottom}>
-						<h3>{title}</h3>
+			<Link href={url} target="_blank" rel="noreferrer">
+				<div className={tw.GridCard} key={title}>
+					<div className={tw.GridItem}>
+						<div className={tw.itemTop}>
+							<Image
+								className="w-[auto] h-[64px]"
+								src={`/assets/skills/${img}`}
+								width={64}
+								height={64}
+								alt="/"
+							/>
+						</div>
+						<div className={tw.itemBottom}>
+							<h3>{title}</h3>
+						</div>
 					</div>
 				</div>
-			</div>
+			</Link>
 		);
 	}
 	return (
@@ -106,9 +108,12 @@ function Skills() {
 				<div className={tw.GridContainer}>
 					{skillIcons.map((s) => {
 						return (
-							<Link href={s.url} target="_blank" rel="noreferrer">
-								<SkillCard img={s.img} title={s.title} key={s.title} />
-							</Link>
+							<SkillCard
+								img={s.img}
+								title={s.title}
+								key={s.title}
+								url={s.url}
+							/>
 						);
 					})}
 				</div>
