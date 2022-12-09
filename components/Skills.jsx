@@ -22,7 +22,7 @@ const skillIcons = [
 		img: "css.png",
 	},
 	{
-		title: "Javascript",
+		title: "JavaScript",
 		img: "js.png",
 	},
 	{
@@ -58,7 +58,7 @@ const skillIcons = [
 		img: "tailwind.png",
 	},
 	{
-		title: "Github",
+		title: "GitHub",
 		img: "github.png",
 	},
 ];
