@@ -17,7 +17,7 @@ const tw = {
 };
 const techNames = [
 	"React",
-	"SASS",
+	"Sass",
 	"Firebase",
 	"Axios",
 	"OpenWeather API",
@@ -47,7 +47,7 @@ export const projectData = {
 		url: "/about/weatherapp",
 		image: weatherappimg,
 		description:
-			"I made this app to test my abilities making dependent API calls and really flexing my muscles with SASS for the first time. I had the secondary goal to make a functional search bar which was an absolute delight to see working the first time. I found I really enjoy setting up responsive apps like this that reflect data in an easily digestable manner.",
+			"I made this app to test my abilities making dependent API calls and really flexing my muscles with Sass for the first time. I had the secondary goal to make a functional search bar which was an absolute delight to see working the first time. I found I really enjoy setting up responsive apps like this that reflect data in an easily digestable manner.",
 	},
 	dadjokes: {
 		title: "Dad Jokes",

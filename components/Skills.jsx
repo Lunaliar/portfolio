@@ -42,7 +42,7 @@ const skillIcons = [
 		img: "react.png",
 	},
 	{
-		title: "SASS",
+		title: "Sass",
 		img: "scss.png",
 	},
 	{

@@ -34,8 +34,8 @@ function About() {
 					</p>
 					<p className={tw.aboutp}>
 						I&apos;ve been learning about coding for about 2 years at this
-						point, I&apos;m mostly self-taught along with some help from Udemy
-						and my mentor{" "}
+						point, I&apos;m mostly self-taught along with some help and
+						direction from my mentor{" "}
 						<span>
 							<a
 								href="https://jaketripp.com/"
