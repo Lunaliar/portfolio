@@ -6,8 +6,8 @@ import {GrClose, GrMenu} from "react-icons/gr";
 import ContactIcons from "./ContactIcons";
 const tw = {
 	componentShadow:
-		"fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300",
-	componentNoShadow: "fixed w-full h-20 z-[100]",
+		"fixed w-full h-18 shadow-xl z-[100] ease-in-out duration-300",
+	componentNoShadow: "fixed w-full h-18 z-[100]",
 	container: "flex justify-between items-center w-full h-full px-2 2xl:px-16",
 	logoImg: "cursor-pointer",
 	linkUl: "hidden md:flex",

@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import {FaHome} from "react-icons/fa";
 import {RiRadioButtonFill} from "react-icons/ri";
+import {BsChevronDoubleLeft, BsChevronDoubleRight} from "react-icons/bs";
 import {projectData} from "../../components/Projects";
 
 const tw = {
@@ -25,7 +26,7 @@ const tw = {
 	rightTitle: "text-center font-bold pb-2",
 	techName: "text-gray-600 py-2 flex items-center",
 	radio: "pr-3",
-	homeContainer: " w-full flex justify-center py-12",
+	homeContainer: " w-full flex justify-around py-12",
 	homeIcon:
 		"rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#5651e5]",
 };
@@ -111,9 +112,19 @@ function App({appName}) {
 				</div>
 			</div>
 			<div className={tw.homeContainer}>
+				<Link href={data.prevURL}>
+					<div className={tw.homeIcon}>
+						<BsChevronDoubleLeft size={40} />
+					</div>
+				</Link>
 				<Link href="/#projects">
 					<div className={tw.homeIcon}>
 						<FaHome size={40} />
+					</div>
+				</Link>
+				<Link href={data.nextURL}>
+					<div className={tw.homeIcon}>
+						<BsChevronDoubleRight size={40} />
 					</div>
 				</Link>
 			</div>

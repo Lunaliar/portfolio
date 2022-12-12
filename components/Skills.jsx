@@ -31,7 +31,7 @@ const skillIcons = [
 		url: "https://www.javascript.com/",
 	},
 	{
-		title: "Node JS",
+		title: "Node.js",
 		img: "nodeJS.png",
 		url: "https://nodejs.org/en/",
 	},
@@ -41,7 +41,7 @@ const skillIcons = [
 		url: "https://git-scm.com/",
 	},
 	{
-		title: "Mongo DB",
+		title: "MongoDB",
 		img: "mongodb.png",
 		url: "https://www.mongodb.com/home",
 	},
@@ -61,12 +61,12 @@ const skillIcons = [
 		url: "https://firebase.google.com/",
 	},
 	{
-		title: "Next JS",
+		title: "Next.js",
 		img: "nextJS.png",
 		url: "https://nextjs.org/",
 	},
 	{
-		title: "Tailwind",
+		title: "Tailwind CSS",
 		img: "tailwind.png",
 		url: "https://tailwindcss.com/",
 	},
