@@ -1,5 +1,6 @@
 # My portfolio site!
-Hey welcome! This is my portfolio site, I'm really proud of it and the work I put into it. If you wanna take a look at the actually site you can find it at https://savcodes.dev feel free to shoot me a message with the contact form at the bottom! 
+
+Hey welcome! This is my portfolio site, I'm really proud of it and the work I put into it. If you wanna take a look at the actually site you can find it at https://savcodes.dev feel free to shoot me a message with the contact form at the bottom!
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -35,4 +36,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # portfolio
