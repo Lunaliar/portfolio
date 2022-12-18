@@ -1,6 +1,6 @@
 # My portfolio site!
-
-Hey welcome! This is my portfolio site, I'm really proud of it and the work I put into it. If you wanna take a look at the actually site you can find it at https://savcodes.dev feel free to shoot me a message with the contact form at the bottom!
+Here is my portfolio site; I wanted to make a website to show to employers and clients and take a crack at using tailwind for the first time. This project was made using Next.js 12, and halfway through, Next.js 13 was released, and I had to migrate my first app to a newer version. It was tricky but a great learning experience.
+If you wanna take a look at the actually site you can find it at https://savcodes.dev feel free to shoot me a message with the contact form at the bottom!
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
