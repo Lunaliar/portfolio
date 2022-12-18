@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
@@ -24,17 +23,17 @@ function About() {
           <h2 className={tw.abouth2}>Who I Am</h2>
           <p className={tw.aboutp}>&#47;&#47;Not your typical developer</p>
           <p className={tw.aboutp}>
-            My name is Sav, I have two cats, Eris and Omen and I live with my
-            partner Kait. I love to play dungeons and dragons and I like
+            My name is Sav, I have two cats, Eris and Omen, and I live with my
+            partner Kait. I love to play dungeons and dragons, and I like
             challenging myself in the kitchen with new recipes. I have worked in
-            many industries from school administration to welding then from
-            management to finance. These experiences give me a great perspective
-            for problem-solving as I&apos;ve often had to tackle issues at my
-            work from many different positions.
+            many industries, from school administration to welding, then from
+            management to finance. These experiences give me an excellent
+            perspective for problem-solving as I&apos;ve often had to tackle
+            issues at work from many different positions.
           </p>
           <p className={tw.aboutp}>
-            I&apos;ve been learning about coding for about 2 years at this
-            point, I&apos;m mostly self-taught along with some help and
+            I&apos;ve been learning about coding for about two years at this
+            point, I&apos;m mostly self-taught, along with some help and
             direction from my mentor{" "}
             <span>
               <a
@@ -47,8 +46,8 @@ function About() {
               </a>
             </span>
             . My favorite parts of coding are the community and the challenges.
-            There&apos;s always a problem somewhere that needs to be solved and
-            even when it is there is almost always a better way to solve it.
+            There&apos;s always a problem somewhere that needs to be solved, and
+            even when it is, there is almost always a better way to solve it.
             Striving for the best solution motivates me and fuels my passion for
             web development.
           </p>

@@ -38,7 +38,7 @@ export const projectData = {
     prevURL: "/about/todolist",
     nextURL: "/about/weatherapp",
     description:
-      "This is a chat app I made to practice and solidify my knowledge of Firebase. I also wanted to get my boots wet with a new styling framework so I decided to use Tailwind CSS for this project. I really enjoyed making this and I feel like I learned more in this small project than other larger ones I've worked on in the past.",
+      "This is a chat app I made to practice and solidify my knowledge of Firebase. I also wanted to get my boots wet with a new styling framework, so I used Tailwind CSS for this project. I enjoyed making this and learned more in this small project than in other larger ones I've worked on.",
   },
   weatherapp: {
     title: "Weather App",
@@ -51,7 +51,7 @@ export const projectData = {
     prevURL: "/about/chatapp",
     nextURL: "/about/dadjokes",
     description:
-      "I made this app to test my abilities making dependent API calls with OpenWeather API and to flex my muscles with Sass for the first time. I had the secondary goal to make a functional search bar which was an absolute delight to see working the first time. I found I really enjoy setting up responsive apps like this that reflect data in an easily digestable manner.",
+      "Here is my weather app! I wanted to make one to practice working with an unknown API. OpenWeatherAPI is excellent, but it can be tricky to work with if you're trying to search with a city name, as you have to make an API call dependent on another API call. Nevertheless, it was a delight to work on it, and Axios made this kind of project a breeze.",
   },
   dadjokes: {
     title: "Dad Jokes",
@@ -64,7 +64,7 @@ export const projectData = {
     prevURL: "/about/weatherapp",
     nextURL: "/about/npcgenerator",
     description:
-      "USE AT YOUR PERIL... This is a dad joke generator, if you ever find yourself with too many friends or not enough dad energy in your life, this is the app for you. I made this while learning to use React and making API calls with Axios. There's even a little bit of functionality for local storage so you can see which ones you liked the most, enjoy!",
+      "This is my Dad Joke Generator. I made it during a Colt Steele Udemy course on reacting. It was my first time making a react app, and it is still one of my favorite things I've ever made. Once I got more comfortable with react, I refactored it from class to functional components. Warning! Use caution when sharing these jokes; they can be very 'd[e]adly.'",
   },
   npcgenerator: {
     title: "NPC Generator",
@@ -77,7 +77,7 @@ export const projectData = {
     prevURL: "/about/dadjokes",
     nextURL: "/about/calculator",
     description:
-      "I started the project with the help of my two friends Jake and Lino. I wanted an easier way to create random Non player characters for my D&D campaigns. I had an absolute blast making this app and it was one of my first times truly working alongside other developers. I can't wait to use this for my games and share it with my friends.",
+      "I started the project with the help of my two friends, Jake and Lino. I wanted an easier way to create random Nonplayer characters for my D&D campaigns. I had an absolute blast making this app; it was one of my first times truly working alongside other developers. I can't wait to use this for my games and share it with my friends.",
   },
   calculator: {
     title: "Calculator",
@@ -103,7 +103,7 @@ export const projectData = {
     prevURL: "/about/calculator",
     nextURL: "/about/todolist",
     description:
-      "This is a little practice project I made with some help to solidify my working knowledge of TypeScript. It was one of my first forrays into TypeScript and it was a tricky conundrum. I truly enjoyed this project and I learned so much even outside of the TypeScript knowledge I was cementing.",
+      "I did this little practice project with some help to solidify my working knowledge of TypeScript. It was one of my first forrays into TypeScript, and it was a tricky conundrum. However, I truly enjoyed this project and learned much, even outside the TypeScript knowledge I was cementing.",
   },
   todolist: {
     title: "To-do List",
@@ -116,7 +116,7 @@ export const projectData = {
     prevURL: "/about/hangman",
     nextURL: "/about/chatapp",
     description:
-      "Everyone has to make at least one of these I hear and I really wanted to give it some fun flair while not making it too complicated. I often find myself on the hunt for a new todo app every month or so and I don't like all of the extra bells and whistles I end up finding. My goal for this project was to make the basics function perfectly and only go crazy with the styling this time.",
+      "Everyone has to make at least one of these, and I wanted to give it some fun flair while not making it too complicated. I often find myself on the hunt for a new to-do app every month, and I don't like all the extra bells and whistles I find. So my goal for this project was to make the basics function perfectly and only go crazy with the styling this time.",
   },
 }
 

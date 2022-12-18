@@ -14,7 +14,7 @@ const tw = {
   icon: "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300",
 }
 const mainText =
-  "I am a React JavaScript developer and I love to solve problems. I also really enjoy using my creativity to make great UX and UI	designs for my websites. Take a look at some of my work below or my	other profiles on LinkedIn or GitHub. I look forward to working with you!"
+  "I am a React JavaScript developer, and I love to solve problems. I also enjoy using my creativity to create great UX and UI  designs for my websites. Please look at some of my work below or my other profiles on LinkedIn or GitHub. I look forward to working with you!"
 function Main() {
   return (
     <div id="main" className={tw.component}>
