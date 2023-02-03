@@ -82,9 +82,9 @@ export const projectData = {
   calculator: {
     title: "Calculator",
     framework: tech.react,
-    techs: [tech.react, tech.css],
-    gitHubUrl: "https://github.com/Lunaliar/Calculator",
-    deployUrl: "https://calculator-orpin-beta.vercel.app/",
+    techs: [tech.react, tech.css, tech.vite],
+    gitHubUrl: "https://github.com/Lunaliar/sav-calc",
+    deployUrl: "https://sav-calc.vercel.app/",
     url: "/about/calculator",
     image: calcimg,
     prevURL: "/about/npcgenerator",
